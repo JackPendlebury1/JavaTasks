@@ -2,9 +2,10 @@ package com.qa.community;
 
 public class Tax {
 	static double tax;
+	static int money;
 	
 	public static void main(String[] args) {
-		int money = 21444;
+		int money = 19888;
 		method1(money);
 		System.out.println(method2(money, tax));
 

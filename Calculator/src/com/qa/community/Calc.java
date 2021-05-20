@@ -1,5 +1,6 @@
 package com.qa.community;
 public class Calc {
+	public static int y;
 	
 	public static void main(String[] args) {
 		System.out.println(addition(2,2));
@@ -14,6 +15,7 @@ public class Calc {
 	}
 	public static int subtraction(int int1, int int2) {
 		int result = int1 - int2;
+		y = 10;
 		return result;
 	}
 	public static int multiplication(int int1, int int2) {
